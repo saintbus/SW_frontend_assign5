@@ -5,7 +5,7 @@ import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs"
 
 export default function DateReserve() {
     return (
-        <form className="mt-4">
+        <form className="mt-6">
         <LocalizationProvider dateAdapter={AdapterDayjs}>
             <DatePicker/>
         </LocalizationProvider>
